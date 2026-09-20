@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.myclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "HeldItemRendererMixin",
+    "ClientWorldMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
